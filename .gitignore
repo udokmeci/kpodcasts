@@ -1,0 +1,64 @@
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+/runtime
+
+# composer itself is not needed
+composer.phar
+
+# composer lock file is not needed
+composer.lock
+
+# Mac DS_Store Files
+.DS_Store
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# Sublime Text files
+sftp-config.json
+outputs/*
+.remote-sync.json
+*.sublime-project
+*.sublime-workspace
+web/project
+web/files
+cloudpro/web/files
+
+web/.htaccess
+
+node/node_modules
