@@ -12,6 +12,7 @@ do
 			if [ "$RES" == "true" ]; 
 			then
 				echo 'true';
+				let COUNTER=0
 			else
 				let COUNTER=COUNTER+1 
 				rm $i.json;
